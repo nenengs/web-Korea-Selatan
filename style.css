@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    /* text-align: center; atur posisi tengah */
+    text-align: center;
+}
+
+body > header {
+    background-color: hotpink;
+}
+header > p {
+    color: #000000;
+    text-align: center;
+}
+
+nav {
+    background-color: aqua;
+}
+a {
+    text-decoration: none;
+    color: deeppink;
+}
+li {
+    list-style: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+nav li {
+    list-style: none;
+}
+main {
+    display: flex;
+    flex:1
+}
+aside {
+    flex: 1;
+}
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+#content  {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+    padding: 2.0%;
+    text-align: justify;
+}
+aside {
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+}
+aside header h2 {
+    color: rgb(18, 18, 67);
+    text-align: center;
+}
+#sejarah p {
+    padding: 15px;
+}
+#content {
+    padding: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+}
+#geografis {
+    padding: 15px;
+}
+#wisata {
+    padding: 15px;
+}
+article h2 {
+    margin-bottom:15px;
+}
+img {
+    margin-bottom: 20px;
+}
+
+#content article h2 {
+    color: rgb(242, 136, 200);
+}
+header h1 {
+    margin-bottom: 15px;
+}
+aside > article {
+    text-align: center;
+}
